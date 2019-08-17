@@ -10,6 +10,7 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style-guide.css"> <!-- Resource style -->
+	<!-- <link rel="stylesheet" href="css/assests.css"> --> <!--Exported Assest -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>Style Guide | Peakers.ai</title>
@@ -17,18 +18,6 @@
 <body>
 	<header>
 		<div class="cd-logo"><img src="assets/branding/logo-1.png" alt="Logo"></div>
-
-		<!-- <nav>
-			<ul class="cd-main-nav">
-				<li><a href="#branding">Branding</a></li>
-				<li><a href="#colors">Colors</a></li>
-				<li><a href="#typography">Typography</a></li>
-				<li><a href="#buttons">Buttons</a></li>
-				<li><a href="#icons">icons</a></li>
-				<li><a href="#form">Form</a></li>
-				<li><a href="#test">Layout</a></li>
-			</ul> 
-		</nav> -->
 		
 		<a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
 
@@ -40,24 +29,35 @@
 
 		<section id="branding" class="cd-branding">
 			<h2>Branding</h2>
-
 			<ul>
-				<li class="cd-box logos" style="padding:77px"><img src="assets/branding/logo-a.png" alt="Logo version 1"></li>
-				<li class="cd-box logos" style="padding:66px"><img style="width: 100px;height: 69px;margin: 0 auto;" src="assets/branding/logo-b.png" alt="Logo version 2"></li>
+				<li class="cd-box logos">
+					<img src="assets/branding/logo-a.png" alt="Logo version 1">
+				</li>
+				<li class="cd-box logos sm-logo">
+					<img src="assets/branding/logo-b.png" alt="Logo version 2">
+				</li>
 			</ul>
-
 			<ul>
-				<!-- <li><img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1"></li>
-				<li><img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2"></li>
-				<li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1"></li>
-				<li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2"></li> -->
 			</ul> 
 		</section>
 
+
+
 		<section id="colors" class="cd-colors">
 			<h2>Colors</h2>
-
 			<ul>
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+
 				<li class="cd-box">
 					<div class="cd-color-swatch"></div>
 				</li>
@@ -80,65 +80,68 @@
 			</ul>
 		</section>
 
+
+
 		<section id="typography" class="cd-typography">
 			<h2>Typography</h2>
-
 			<div class="cd-box">
-				<h1>Font Family<span></span></h1>
+				<h1>Font Family</h1>
 
-				<p><span style="font-weight: 600;">Open Sans</span> has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.</p>
+				<p><span style="font-weight: 600;">Gotham</span> has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.</p>
 				<br>
-				<p><span style="font-weight: 600;">Roboto</span> should be used to support Open Sans. Roboto reads well at small sizes (mobile), it doesn't take a lot of space and should be used for its utility and legibility. Use Roboto for body copy and smaller text size uses.</p>
+				<p><span style="font-weight: 600;">Open Sans</span> should be used to support Gotham. Open Sans reads well at small sizes (mobile), it doesn't take a lot of space and should be used for its utility and legibility.</p>
 				<br><br>
 
 				<h1>Font Weight and size</h1><br>
 				<div>
-					<p class="open" style="font-weight:bold; font-size: 22px">Headline (Open Sans Bold 22pt)</p>
+					<p class="open" style="font-weight:bold; font-size: 22px">Header (Gotham Black Bold 22pt)</p>
 					<p class="open"style="font-weight:bold; font-size: 20px">Section (Open Sans Bold 20pt)</p>
-					<p class="open" style="font-weight:bold; font-size: 13px">Title (Open Sans Bold 13pt)</p>				
+					<p class="open" id="low-number" >Title-2 (Gotham Book 18pt)</p>	
+					<p class="open" style="font-weight:bold; font-size: 13px">Title (Open Sans Bold 13pt)</p>
+									
 					<p class="roboto" style="font-weight:500; font-size: 13px">Body (Roboto Medium 13pt)</p>
 					<p class="open" style="font-weight:400; font-size: 13px">Caption (Open Sans Rugular 13pt)</p>
 				</div>
 
 				<br><br>
 				<h1>Font Colors</h1>
-				<div class="container" style="text-align: center;">
+				<div class="container typeContainer" style="text-align: center;">
 					<div class="row">
-						<div class='col-md-3'>
+						<div class='col-sm-6 col-md-3 col-lg-6'>
 							<p style="color:#222222">BLACK #222222</p>
 							<p style="color:#666662">GREY #666662</p>
 						</div>
-						<div class='col-md-3'> 
+						<div class='col-sm-6 col-md-3 col-lg-6'> 
 							<p style="color:#888882">GREY MID #888882</p>
 							<p style="color:#FC1976">PINK #FC1976</p>
 						</div>
-						<div class='col-md-3'>
+						<div class='col-sm-6 col-md-3 col-lg-6'>
 							<p style="color:#7E23D0">PURPLE MID #7E23D0</p>
 							<p style="color:#FC5823">ORANGE #FC5823</p>
 						</div>
-						<div class='col-md-3'>
+						<div class='col-sm-6 col-md-3 col-lg-6'>
 							<p style="color:#FFFFFF;background-color: black">WHITE #FFFFFF</p>
 							<p style="color:#B3B3B3;background-color: black">GREY LIGHT #B3B3B3</p>
-						</div>					
+						</div>
+
 					</div>
 				</div><br><br>
-
-				<h1>Line length</h1>
-				<p>Keep the number of character per line within 30–40 is a good choice.</p>
 			</div>
 		</section>
+
+
+
 
 		<section id="buttons" class="cd-buttons">
 			<h2>Buttons</h2>
-
 			<div class="cd-box">
-				<button class="btn">Normal</button>
-				<button class="btn btn-success">Success</button>
-				<button class="btn btn-alert">Alert</button>
+				<button class="btn btn-primary">Normal</button>
+				<!-- <button class="btn btn-alert">Alert</button> -->
 				<button class="btn btn-outline">Outline</button>
 			</div>
-
 		</section>
+
+
 
 		<section id="icons" class="cd-icons">
 			<h2>Icons</h2>
@@ -149,32 +152,34 @@
 				<li class="cd-icon-4"></li>
 				<li class="cd-icon-5"></li>
 				<li class="cd-icon-6">
-					<svg style="width: 20px;height: 50px;" xmlns="http://www.w3.org/2000/svg">
+					<svg class="icon-anim" xmlns="http://www.w3.org/2000/svg">
   					<circle cx="7" cy="8" fill="#e4655f" r="1" style="stroke:white;">
     					<animate attributeType="XML" attributeName="r" values="4;8;4"
              dur="1s" begin="0.25s" repeatCount="indefinite" />
-           </circle></svg>
-         </li>
+           	</circle>
+         	</svg>
+        </li>         
+				<li class="cd-icon-7"></li>
 			</ul>
 		</section>
+
 
 
 		<section id="form" class="cd-form">
 			<h2>Form</h2>			
 			<div class="cd-box">
 				<form>
+						
+					
 					<fieldset>
-						<input type="text">
-						<input class="success" type="text">
-						<input class="alert" type="text">
-					</fieldset>
-					<fieldset>
+						<input type="text" placeholder="Type here">
+
 						<div class="cd-input-wrapper">
-	      			<button class="btn" style="padding: .7em 1.2em;">Selected</button>
-							<button class="btn btn-outline" style="padding: .7em 1.2em;">Option</button>
-							<label style="margin-left: 10px">Radio Button</label>
+	      			<button class="btn">Selected</button>
+							<button class="btn btn-outline">Option</button>
+							<label>Radio Button</label>
       			</div>
-						<div class="cd-input-wrapper" style="margin-right: 40px;">
+						<div class="cd-input-wrapper">
 							<input type="checkbox" id="checkbox1">
 	      			<label class="checkbox-label" for="checkbox1">Checkbox Button</label>
       			</div>
@@ -187,68 +192,554 @@
 			</div>
 		</section>
 
+
+
 		<section>
 			<h2>avatar structure</h2>			
-			<div class="cd-box" style="padding: 30px;">
+			<div class="cd-box">
 				<p>Avatars display an image if the user has uploaded one but if not, initials are shown instead. The background color is chosen randomly for each user.</p><br><br>
-				<div class="container">
-					<div class="row">
-						<div class="avatar-img" ><img src="./assets/img/lady.jpeg"></div>
-						<div class='avatar'>DR</div>
+				
+					<div class="center">
+						<div class="avatar-img" ></div>
+						<div class='avatar'>M</div>
 					</div>
-				</div>	
+				
 			</div>
 		</section>
 
-		<section id="icons" class="cd-icons">
-			<h2>Tab Bar</h2>
-			<div class='cd-box' style="padding: 30px;">	
-				<div><img src="./assets/img/tab-bar.png"></div>
-			</div>	
+
+
+		<!-- Stats -->
+		<section id="stats" class="cd-test">
+			<h2>Number Picker</h2>
+			<div class='cd-box'>
+				<div class="flexDateContainer">			
+					<div class="recHC">
+						<ul class="recH">
+							<li>
+								<div class="hour">6</div>
+							</li>
+							<li>
+								<div class="hour">7</div>
+							</li>
+							<li>
+								<div class="hour">8</div>
+							</li>
+							<li>
+								<div class="hour">9</div>
+								<div class="dot"></div>
+							</li>
+							<li>
+								<div class="hour">10</div>
+							</li>
+							<li>
+								<div class="hour">11</div>
+							</li>
+							<li>
+								<div class="hour">12</div>
+							</li>
+						</ul>
+						<div class='line'></div>							
+					</div>
+
+				</div>
+
+			</div>
 		</section>
 
-		<section id="icons" class="cd-icons">
-			<h2>Time and Date sliders</h2>
-			<div class='cd-box' style="padding: 30px;">
-				<div class='container'>
-					<div class='row'>	
-						<div class='col-md-6 col-lg-12' style='padding-top: 35px'>
-							<img style='height: 76px;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.02);' src="./assets/img/time.png">
-						</div>
-						<div class='col-md-6 col-lg-12'>
-							<img src="./assets/img/date.png">
-						</div>
+
+
+		<!-- Headers -->
+		<section id="tool" class="cd-test">
+			<h2>Header</h2>
+			<div class='cd-box'>
+
+				<div class="flexContainer-dash">					
+						<img id="setting" src="./assets/icons/icon-setting.svg">
+						<img id="avatar" src="./assets/icons/logotype.svg">
+						<div class='avatar-dash'>M</div>									
+				</div>
+
+
+				<div class="flexContainer-tools">
+					<svg class="path-left" viewBox="649.748 -549.708 8.183 16.194">
+						<path id="Path_1" d="M 657.9304809570312 -549.7080688476562 L 651.9448852539062 -543.4818725585938 L 649.7476806640625 -541.1962280273438 L 657.9304809570312 -533.5137329101562">
+						</path>
+					</svg>
+					<h3>How it Works</h3>
+					<svg class="path-right" viewBox="0 0 8.183 16.194">
+						<path id="Path_2" d="M 8.182771682739258 -2.455542791324206e-08 L 2.197279214859009 6.226175785064697 L -2.55430823159486e-08 8.511896133422852 L 8.182771682739258 16.19432640075684">
+						</path>
+					</svg>							
+				</div>
+
+				<div class="flexContainer-date">
+					<h3 class="yearFlex">August 2019</h3>
+					<h3 class="yearFlex">Week1</h3>
+				</div>
+				
+
+				<div class="flexContainer">			
+					<svg class="Path_1" viewBox="649.748 -549.708 8.183 16.194">
+						<path id="Path_1" d="M 657.9304809570312 -549.7080688476562 L 651.9448852539062 -543.4818725585938 L 649.7476806640625 -541.1962280273438 L 657.9304809570312 -533.5137329101562">
+						</path>
+					</svg>
+
+					<div class="rec">
+						<ul class="recCon">
+							<li>
+								<div class="days">MON</div>
+								<div class="numbers">6</div>
+							</li>
+							<li>
+								<div class="days">TUE</div>
+								<div class="numbers">9</div>
+							</li>
+							<li>
+								<div class="days">WED</div>
+								<div class="numbers">10</div>
+							</li>
+							<li>
+								<div class="days">THU</div>
+								<div class="numbers whiteCircle">11</div>
+							</li>
+							<li>
+								<div class="days">FRI</div>
+								<div class="numbers">12</div>
+							</li>
+							<li>
+								<div class="days">SAT</div>
+								<div class="numbers">13</div>
+							</li>
+							<li>
+								<div class="days">SUN</div>
+								<div class="numbers">14</div>
+							</li>
+						</ul>						
 					</div>
-				</div>		
-			</div>	
+
+					<svg class="Path_2" viewBox="0 0 8.183 16.194">
+						<path id="Path_2" d="M 8.182771682739258 -2.455542791324206e-08 L 2.197279214859009 6.226175785064697 L -2.55430823159486e-08 8.511896133422852 L 8.182771682739258 16.19432640075684">
+						</path>
+					</svg>			
+				</div>
+
+			</div>
 		</section>
 
-		<section id="test" class="cd-test">
-			<h2>Stats Cards</h2>
-			<div class='cd-box' style="padding: 30px;">	
-				<div class='container'>
-					<div class='row'>
-						<div class='col-md-3 col-lg-6'><img src="./assets/img/card-1.png"></div>
-						<div class='col-md-3 col-lg-6'><img src="./assets/img/card-2.png"></div>
-						<div class='col-md-3 col-lg-6'><img src="./assets/img/card-3.png"></div>
-						<div class='col-md-3 col-lg-6'><img src="./assets/img/card-4.png"></div>
-					</div>
+
+
+
+		<section id="footer" class="cd-test">
+			<h2>Footer</h2>
+			<div class='cd-box'>
+				<div class="flexFooterContainer">
+				<div class="FooterContainer">
+					<ul class="recFooter">
+						<li>
+							<img src="./assets/icons/icon-unselect-1.svg">
+							<div class="footerTitle">TOOLS</div>
+						</li>
+						<li>
+							<img src="./assets/icons/icon-w2.svg">
+							<div class="footerTitle selected-stat" >STATS</div>
+						</li>
+						<li>
+							<img src="./assets/icons/icon-unselect-3.svg">
+							<div class="footerTitle">PLAN</div>
+						</li>
+						<li>
+							<img src="./assets/icons/icon-unselect-4.svg">
+							<div class="footerTitle">CHAT</div>
+						</li>						
+					</ul>						
 				</div>
 			</div>
-		</section>
-
-		<section id="test" class="cd-test container">
-			<h2>Tools Cards</h2>
-			<div class='cd-box' style="padding: 30px;">				
-				<p style="margin-bottom: 20px">To show the activities effectively, add text on a white background for better contrast. </p>
-				
-					<div class='row'>
-						<div class='col-md-12'>
-							<img  style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.02);" src="./assets/img/tool-card.svg"></div>
-					</div>
-				
 			</div>
 		</section>
+
+
+		<section id="stats" class="cd-test">
+			<h2>Stats Cards</h2>
+			<div class='cd-box'>
+				<div class="stats-font">
+					<div class="stats-day">TODAY</div>
+					<div class="stats-progress">LIGHT</div>
+					<div class="stats-perc">0%</div>
+					<div class="stats-days">DAYS</div>
+				</div>
+
+				<div id="stats-container">
+					<div class="rectangle">
+						<div id="effort">
+							<span>EFFORT</span>
+						</div>
+
+						<div id="low">
+							<div class="low-content">
+								<div class="low-word">LOW</div>
+								<div id="low-number">
+									<span>10</span>
+								</div>								
+							</div>
+							<div class="graph-content">
+								<svg class="graph2">
+									<path id="Line_1" d="M 0 36.10449981689453 L 30.94671249389648 0">
+									</path>
+								</svg>
+								<svg class="graph-2">
+									<path id="Line_2" d="M 31.80634307861328 1.719261765480042 L 0 0">
+									</path>
+								</svg>
+							</div>							
+						</div>	
+
+						
+						
+					</div>
+			</div>
+
+			</div>
+		</section>
+
+
+		
+
+	<section id="test" class="cd-test">
+		<h2>Tools Card</h2>
+		<div class='cd-box'>				
+			<p class="tool-p" >To show the activities effectively, add text on a white background for better contrast. </p>			
+				<div class='row'>
+					<div class='col-md-12'>						
+						<div class="hero-image">
+							<div class="hero-text">
+								<h1>PRODUCT TOUR</h1>
+								<div class="hero-title">HOW IT WORKS</div>
+								<p class="hero-p">A brief video guide to the main features of the Peakers App</p>
+							</div>							
+						</div>
+				</div>				
+		</div>
+	</section>
+
+	<section id="plan" class="cd-test">
+		<h2>Plan Card</h2>
+		<div class='cd-box'>
+				<div class='row'>
+					<div class='col-md-12 plan-container'>						
+						<div class="hero-image">
+							<div class="hero-text plan-text">
+								<div class="plan-circle">M</div>
+								<h1>PRODUCT TOUR</h1>
+								<div class="hero-title">HOW IT WORKS</div>
+								<p class="hero-p">A brief video guide to the main features of the Peakers App.</p>
+							</div>							
+						</div>
+
+						<p class="margin-top-bottom">On click</p>
+						<div class="hero-image plan-image">
+							<div class="hero-text plan-text">
+								<div class="plan-circle">A</div>
+								<h1>PRODUCT TOUR</h1>
+								<div class="hero-title">HOW IT WORKS</div>
+								<p class="hero-p">A brief video guide to the main features of the Peakers App.</p>
+							</div>							
+						</div>
+						<div class="plan-collapse">
+							<h3>MUST DO - MAIN</h3>
+							<div class="collapse-box">
+								<div class="child-box">
+									<div class="box-left">DISTANCE</div>
+									<div class="box-right">1000-1500/y</div>
+								</div>
+
+								<div class="child-box">
+									<div class="box-left">EFFORT</div>
+									<div class="box-right">LOW <div class="triangle"></div></div>
+								</div>
+
+								<div class="child-box">
+									<div class="box-left">FOOD</div>
+									<div class="box-right">MODERATE / MODERATE CARB <div class="triangle"></div></div>
+								</div>
+
+								<div class="child-box">
+									<div class="box-left">VIEDO</div>
+									<div class="box-right underline">Swimcards Workout</div>
+								</div>
+
+								<div class="child-box">
+									<div class="box-left">INTERVALS</div>
+									<div class="box-right">3x 250/y - EASY 4/10</div>
+								</div>	
+
+								<div class="child-box plan-btn-container">
+									<button class="btn plan-btn">PREP</button>
+									<button class="btn plan-btn">DEBRIEF</button>
+								</div>							
+								
+							</div>
+						</div>
+				</div>				
+		</div>
+	</section>
+
+
+
+	<section id="test" class="cd-test">
+		<h2>Chat Cards</h2>
+		<div class='cd-box'>			
+				<div class='row'>
+					<div class='col-md-12'>
+						<div class="chat-image">
+							<div class="chat-text">
+								<div class="chat-logo">
+									<img src="assets/branding/logo-b.png" alt="Logo version 2">
+								</div>								
+								<div class="chatCol">
+									<div>
+										<span class="chat-header">Peakers</span>
+										<span class="chat-dot"></span>
+										<span class="chat-team"> Concierge</span>
+									</div>
+										<p class="chat-par">Hello There</p>
+								</div>
+								<div class="chat-message">
+									<p class="chat-p">5 days ago</p>
+									<div class="chat-icon"></div>
+								</div>
+
+							</div>
+						</div>
+
+
+						<div class="chat-image">
+							<div class="chat-text">
+								<div class="chat-logo">
+										<div class="chat-avatar"></div>
+								</div>
+								<div class="chatCol">
+									<div>
+										<span class="chat-header">Peakers</span>
+										<span class="chat-dot"></span>
+										<span class="chat-team"> Concierge</span>
+									</div>
+									<p class="chat-par">Hello There</p>
+								</div>
+							
+								<div class="chat-message">
+									<p class="chat-p">5 days ago</p>
+									<div class="chat-icon"></div>
+									</div>							
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+
+
+
+
+
+		<section id="setting" class="cd-test">
+			<h2>Settings layout</h2>
+			<div class='cd-box'>			
+					<div class='row setting-container'>
+						<div class='setting-flex'>	
+						<div class="mobile-container">					
+							<div class="setting-stroke"></div>
+							<div class="setting-header">SETTINGS</div>
+							<div class="line"></div>	
+							<div class="setting-menu">
+								<div class="setting-text">LINKED ACCOUNTS</div>
+								<svg class="Path_2 setting-icon" viewBox="0 0 8.183 16.194">
+									<path id="Path_2" d="M 8.182771682739258 -2.455542791324206e-08 L 2.197279214859009 6.226175785064697 L -2.55430823159486e-08 8.511896133422852 L 8.182771682739258 16.19432640075684">
+									</path>
+								</svg>
+
+							</div>
+							<div class="line"></div>	
+							<div class="setting-menu">
+								<div class="setting-text">SET ALERT TIMES</div>
+								<svg class="setting-path" viewBox="0 0 8.183 16.194">
+									<path id="setting-path" d="M 8.182771682739258 -2.455542791324206e-08 L 2.197279214859009 6.226175785064697 L -2.55430823159486e-08 8.511896133422852 L 8.182771682739258 16.19432640075684">
+									</path>
+								</svg>
+							</div>
+							<div class="line"></div>
+							<div class="setting-menu">
+								<div class="setting-text">PUSH NOTIFICATIONS</div>
+								<div class="setting-toggle">
+									<label class="form-switch">      				
+		      				<input type="checkbox"><i></i>
+		      				</label>
+	      				</div>
+							</div>					
+						</div>			
+					</div>
+			</div>
+		</section>
+
+		<section id="tools" class="cd-test">
+			<h2>Tools Cards</h2>
+			<div class='cd-box'>			
+				<div class='row'>
+					<div class='center'>
+						<img class="tour-close" src="./assets/icons/close.svg">						
+						<div class="tour-image">
+							<div class="tour-text">
+								<img class="tour-logo" src="assets/branding/logo-b.png" alt="Logo version 2">
+								<h1>PRODUCT TOUR</h1>								
+								<div class="tour-title">HOW IT WORKS</div>
+								<p class="tour-p">A brief video guide to the main features of the Peakers APP.</p>
+								<div class="tour-circle">
+									<div class="triangle"></div>
+								</div>
+							</div>							
+						</div>
+				</div>				
+			</div>
+		</section>
+
+		<section id="schedule" class="cd-test">
+			<h2>Schedule</h2>
+			<div class='cd-box'>			
+				<div class='row'>
+					<div class='center'>											
+						<div class="schedule-image">
+							<div class="box-1">
+								<div class="schedule-heading">Week 2</div>
+								<div class="schedule-heading-2">OLYMPIC/SPRINT TRI INTRO</div>
+								<ul class="schedule-circle">
+									<li>M</li>
+									<li>A</li>
+									<li>B</li>
+									<li>C</li>
+								</ul>
+								<div class="vertical-line"></div>
+							</div>	
+							<div class="box-2">
+								<div class="Rtable Rtable--7cols">
+									<div class="Rtable-cell cell-heading"><h3>MON 08/12</h3></div>
+								  <div class="Rtable-cell cell-heading">TUE 08/13</div>
+								  <div class="Rtable-cell cell-heading">WED 08/14</div>					  
+								  <div class="Rtable-cell cell-heading"><h3>THU 08/15</h3></div>
+								  <div class="Rtable-cell cell-heading">FRI 08/16</div>
+								  <div class="Rtable-cell cell-heading">SAT 08/17</div>
+								  <div class="Rtable-cell cell-heading">SUN 08/18</div>
+								  
+
+								  <div class="Rtable-cell orange-cell">
+								  	<img src="./assets/icons/sports/mindset.svg">
+								  	<span class="schedule-time">15MINs</span>
+								  	<span class="schedule-skill">MINDSET</span>
+								  </div>
+								  <div class="vertical-line-1"></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell orange-cell">
+								  	<img src="./assets/icons/sports/mindset.svg">
+								  	<span class="schedule-time">10MINs</span>
+								  	<span class="schedule-skill">MINDSET</span>
+								  </div>						  
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell orange-cell">
+								  	<img src="./assets/icons/sports/mindset.svg">
+								  	<span class="schedule-time">10MINs</span>
+								  	<span class="schedule-skill">MINDSET</span>
+								  </div>
+								  
+
+								  <div class="Rtable-cell purple-cell">
+								  	<img src="./assets/icons/sports/swim.svg">
+								  	<span class="schedule-time">1250m/y</span>
+								  	<span class="schedule-skill">ENDURANCE</span>
+								  </div>
+								  <div class="vertical-line-2"></div>
+								  <div class="Rtable-cell red-cell">
+								  	<img src="./assets/icons/sports/bike.svg">
+								  	<span class="schedule-time">45MINS</span>
+								  	<span class="schedule-skill">TEMPO</span>
+								  </div>
+								  <div class="Rtable-cell red-cell">
+								  	<img src="./assets/icons/sports/bike.svg">
+								  	<span class="schedule-time">50MINS</span>
+								  	<span class="schedule-skill">ENDURANCE</span>
+								  </div>
+								  <div class="Rtable-cell orange-cell">
+								  	<img src="./assets/icons/sports/mindset.svg">
+								  	<span class="schedule-time">20MINs</span>
+								  	<span class="schedule-skill">MINDSET</span>
+								  </div>
+								   <div class="Rtable-cell purple-cell">
+								   	<img src="./assets/icons/sports/swim.svg">
+								  	<span class="schedule-time">1250m/y</span>
+								  	<span class="schedule-skill">TECHNIQUE</span>
+								  </div>
+								  <div class="Rtable-cell red-cell">
+								  	<img src="./assets/icons/sports/bike.svg">
+								  	<span class="schedule-time">40MINS</span>
+								  	<span class="schedule-skill">ENDURANCE</span>
+								  </div>
+								  <div class="Rtable-cell pink-cell">
+								  	<img src="./assets/icons/sports/run.svg">
+								  	<span class="schedule-time">40MINS</span>
+								  	<span class="schedule-skill">TEMPO</span>
+								  </div>
+								  
+
+								  <div class="Rtable-cell purple-cell">
+								  	<img src="./assets/icons/sports/swim.svg">
+								  	<span class="schedule-skill">TECHNIQUE</span>
+								  </div>
+								  <div class="vertical-line-3"></div>
+								  <div class="Rtable-cell pink-cell">
+								  	<img src="./assets/icons/sports/run.svg">
+								  	<span class="schedule-time">15MINS</span>
+								  	<span class="schedule-skill">TECHNIQUE</span>
+								  </div>
+								  <div class="Rtable-cell gray-cell">
+								  	<img src="./assets/icons/sports/strength.svg">
+								  	<span class="schedule-time">10MINS</span>
+								  	<span class="schedule-skill">INJURY PREVENTION</span>
+								  </div>							  
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell purple-cell">
+								  	<img src="./assets/icons/sports/swim.svg">
+								  	<span class="schedule-time">1250m/y</span>
+								  	<span class="schedule-skill">TECHNIQUE</span>
+								  </div>
+								  <div class="Rtable-cell gray-cell">
+								  	<img src="./assets/icons/sports/strength.svg">
+								  	<span class="schedule-time">10MINS</span>
+								  	<span class="schedule-skill">INJURY PREVENTION</span>
+								  </div>
+								  <div class="Rtable-cell gray-cell">
+								  	<img src="./assets/icons/sports/strength.svg">
+								  	<span class="schedule-time">10MINS</span>
+								  	<span class="schedule-skill">STRENGTH</span>
+								  </div>
+								  
+
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="vertical-line-4"></div>
+								  <div class="vertical-line-5"></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								   <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="Rtable-cell"><span></span></div>
+								  <div class="vertical-line-6"></div>
+								  
+								</div>
+							</div>													
+						</div>
+				</div>				
+			</div>
+		</section>
+
 
 
 	</main>

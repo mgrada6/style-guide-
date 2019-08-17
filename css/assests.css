@@ -1,0 +1,489 @@
+  :root {
+    --web-view-ids: iPhone_XR_XS_Max___2;
+  }
+  #iPhone_XR_XS_Max___2 * {
+    margin: 0;
+    padding: 0;
+  }
+  #iPhone_XR_XS_Max___2 {
+    position: relative;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 414px;
+    height: 616px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    --web-view-name: iPhone XR/XS Max – 2;
+    --web-view-id: iPhone_XR_XS_Max___2;
+    --web-enable-deep-linking: true;
+  }
+  #Rectangle_4 {
+    fill: rgba(0,0,0,1);
+  }
+  .Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 378.066px;
+    height: 113.42px;
+    left: 18px;
+    top: 300px;
+  }
+  #Ellipse_5 {
+    fill: rgba(255,255,255,1);
+  }
+  .Ellipse_5 {
+    position: absolute;
+    overflow: visible;
+    width: 37.807px;
+    height: 37.807px;
+    left: 192.18px;
+    top: 356.71px;
+  }
+  #ID8 {
+    position: absolute;
+    left: 204.333px;
+    top: 367.512px;
+    overflow: visible;
+    width: 13px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(33,31,31,1);
+  }
+  #ID9 {
+    position: absolute;
+    left: 246.19px;
+    top: 366.161px;
+    overflow: visible;
+    width: 14px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+  #ID10 {
+    position: absolute;
+    left: 286.697px;
+    top: 366.161px;
+    overflow: visible;
+    width: 24px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+  #ID5 {
+    position: absolute;
+    left: 62.558px;
+    top: 366.161px;
+    overflow: visible;
+    width: 13px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255,255,255,1);
+  }
+  #ID6 {
+    position: absolute;
+    left: 109.816px;
+    top: 366.161px;
+    overflow: visible;
+    width: 14px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+  #ID7 {
+    position: absolute;
+    left: 155.724px;
+    top: 366.161px;
+    overflow: visible;
+    width: 13px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+  }
+ 
+ /* .Path_1 {
+    transform: matrix(1,0,0,1,0,0);
+    overflow: visible;
+    position: absolute;
+    top: 362.786px;
+    left: 31.162px;
+    width: 9.79px;
+    */height: 17.261px;
+  }
+  #MON {
+    position: absolute;
+    left: 53.106px;
+    top: 339.157px;
+    overflow: visible;
+    width: 26px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1);
+  }
+  #TUE {
+    position: absolute;
+    left: 103.065px;
+    top: 339.157px;
+    overflow: visible;
+    width: 22px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1);
+  }
+  #WED {
+    position: absolute;
+    left: 147.623px;
+    top: 339.157px;
+    overflow: visible;
+    width: 27px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1);
+  }
+  #THU {
+    position: absolute;
+    left: 198.932px;
+    top: 339.157px;
+    overflow: visible;
+    width: 20px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(255,255,255,1);
+  }
+  #FRI {
+    position: absolute;
+    left: 246.19px;
+    top: 339.157px;
+    overflow: visible;
+    width: 16px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(255,255,255,1);
+  }
+  #SAT {
+    position: absolute;
+    left: 286.697px;
+    top: 339.157px;
+    overflow: visible;
+    width: 22px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1);
+  }
+  #August_2019 {
+    position: absolute;
+    left: 26.101px;
+    top: 309.452px;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(255,255,255,1);
+  }
+  #ID11 {
+    position: absolute;
+    left: 336.656px;
+    top: 366.161px;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    color: rgba(255,255,255,1);
+  }
+  
+  #SUN {
+    position: absolute;
+    left: 333.955px;
+    top: 339.157px;
+    overflow: visible;
+    width: 23px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1);
+  }
+  #Rectangle_5 {
+    fill: rgba(255,255,255,1);
+  }
+  .Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 372.736px;
+    height: 71.451px;
+    left: 23.329px;
+    top: 524.902px;
+  }
+  #ID9_AM {
+    position: absolute;
+    left: 190.049px;
+    top: 543.955px;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(5,5,5,1);
+  }
+  #Ellipse_6 {
+    fill: rgba(0,0,0,1);
+  }
+  .Ellipse_6 {
+    position: absolute;
+    overflow: visible;
+    width: 7.145px;
+    height: 7.145px;
+    left: 199.575px;
+    top: 565.391px;
+  }
+  #Line_3 {
+    fill: transparent;
+    stroke: rgb(204, 204, 204);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .Line_3 {
+    overflow: visible;
+    position: absolute;
+    top: 586.23px;
+    left: 28.688px;
+    width: 362.019px;
+    height: 1px;
+  }
+  #ID10_AM {
+    position: absolute;
+    left: 244.828px;
+    top: 543.955px;
+    overflow: visible;
+    width: 29px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #ID11_AM {
+    position: absolute;
+    left: 304.37px;
+    top: 543.955px;
+    overflow: visible;
+    width: 26px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #ID11_AM_A3_Text_19 {
+    position: absolute;
+    left: 360.34px;
+    top: 543.955px;
+    overflow: visible;
+    width: 26px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #ID6_AM {
+    position: absolute;
+    left: 28.093px;
+    top: 543.955px;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #ID7_AM {
+    position: absolute;
+    left: 82.872px;
+    top: 543.955px;
+    overflow: visible;
+    width: 24px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #ID8_AM {
+    position: absolute;
+    left: 136.46px;
+    top: 543.955px;
+    overflow: visible;
+    width: 24px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gotham Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(118,118,118,1);
+  }
+  #Rectangle_2 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    fill: rgba(255,255,255,1);
+  }
+  .Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 249.698px;
+    height: 100.103px;
+    left: 25px;
+    top: 25px;
+  }
+  #LOW {
+    position: absolute;
+    left: 24.631px;
+    top: 34.508px;
+    overflow: visible;
+    width: 38px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(112,112,112,1);
+  }
+  #EFFORT {
+    position: absolute;
+    left: 101.63px;
+    top: 11.63px;
+    overflow: visible;
+    width: 42px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(76, 76, 76);
+  }
+  #ID0 {
+    position: absolute;
+    left: 24.491px;
+    top: 58.718px;
+    overflow: visible;
+    width: 7px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(112,112,112,1);
+  }
+  #Line_1 {
+    fill: transparent;
+    stroke: rgb(255, 0, 107);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .Line_1 {
+    overflow: visible;
+    position: relative;
+    top: 34.377px;
+    left: 132.866px;
+    width: 35.502px;
+    height: 40.009px;
+  }
+  #Line_2 {
+    fill: transparent;
+    stroke: rgb(255, 0, 107);
+    stroke-width: 6px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .Line_2 {
+    overflow: visible;
+    position: relative;
+    top: 2.236px;
+    left: 122.094px;
+    width: 32.13px;
+    height: 7.711px;
+  }
